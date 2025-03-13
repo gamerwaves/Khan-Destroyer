@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=00FF00&text=KHAN-DESTROYER&fontColor=000000&fontAlign=50&fontAlignY=30&fontSize=35"/></a>
+<a href="#"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=00FF00&text=KHAN-DESTROYER&fontColor=FFFFFF&fontAlign=50&fontAlignY=30&fontSize=35"/></a>
 
  <a href="#"><img src="https://komarev.com/ghpvc/?username=gamerwaves&style=for-the-badge&label=Views:&color=ff69b4"/></a>
 
@@ -45,3 +45,4 @@ javascript:fetch("https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/re
 It is not permitted to use it for improper or fraudulent purposes OR FOR PROFIT.
 Use on third party servers is prohibited without prior authorization.
 For permissions and questions, please contact us before any implementation.**
+<a href="#"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=00FF00&section=footer"/></a>
