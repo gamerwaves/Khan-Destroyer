@@ -115,49 +115,6 @@ async function hideSplashScreen() {
     setTimeout(() => splashScreen.remove(), 1000);
 };
 
-// Pop-up creation and functionality
-function showPopup() {
-    popup.style.cssText = "position:fixed;top:50%;left:50%;transform:translate(-50%, -50%);background-color:#fff;padding:20px;border-radius:10px;box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);z-index:10000;text-align:center;max-width:300px;";
-    
-    const image = document.createElement('img');
-    image.src = 'https://i.imgur.com/t4mfuJU.png';
-    image.style.width = '100px';
-    image.style.height = '100px';
-    
-    const text = document.createElement('p');
-    text.innerText = 'Games Destroyer';
-    text.style.fontSize = '18px';
-    text.style.marginTop = '10px';
-    
-    const discordButton = document.createElement('button');
-    discordButton.innerText = 'Entrar no Server';
-    discordButton.style.marginTop = '20px';
-    discordButton.style.padding = '10px';
-    discordButton.style.backgroundColor = '#7289da';
-    discordButton.style.border = 'none';
-    discordButton.style.borderRadius = '5px';
-    discordButton.style.color = 'white';
-    discordButton.onclick = () => {
-        window.open('https://discord.gg/gamesdest', '_blank');
-    };
-
-    const closeButton = document.createElement('span');
-    closeButton.innerText = 'X';
-    closeButton.style.position = 'absolute';
-    closeButton.style.top = '10px';
-    closeButton.style.right = '10px';
-    closeButton.style.cursor = 'pointer';
-    closeButton.onclick = () => {
-        popup.remove();
-    };
-
-    popup.appendChild(closeButton);
-    popup.appendChild(image);
-    popup.appendChild(text);
-    popup.appendChild(discordButton);
-    document.body.appendChild(popup);
-}
-
 async function loadScript(url, label) {
     return fetch(url)
         .then(response => response.text())
@@ -180,7 +137,7 @@ async function loadCss(url) {
 
 /* Main Functions */
 function setupMain() {
-    loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/questionSpoof.js', 'questionSpoof');
+    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/questionSpoof.js', 'questionSpoof');
     loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/videoSpoof.js', 'videoSpoof');
     loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/spoofUser.js', 'spoofUser');
     loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/autoAnswer.js', 'autoAnswer');
@@ -212,11 +169,10 @@ loadScript('https://cdn.jsdelivr.net/npm/toastify-js', 'toastifyPlugin')
         
         await delay(2000);
 
-        sendToast("🎮┃Khan Destroyer iniciado!"); // Emoji de controle
+        sendToast("🎮┃Khan Destroyer started!"); 
 
         hideSplashScreen();
         setupMain();
-        showPopup(); // Show the pop-up
 
         console.clear();
         console.log(" \n  ______          _    \n |  ____|        | |   \n | |__ _   _  ___| | __\n |  __| | | |/ __| |/ /\n | |  | |_| | (__|   < \n |_|   \\__,_|\\___|_|\\_\\\n ");
