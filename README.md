@@ -8,7 +8,7 @@
 
 **Englishified by: [gamerwaves](https://github.com/gamerwaves)**
 
-#_NEW!_ USERSCRIPT VERSION 🚨
+# _NEW!_ USERSCRIPT VERSION 🚨
 **[Click to Install](https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/script.user.js)**
 
 # Resources
