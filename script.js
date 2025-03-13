@@ -137,10 +137,10 @@ async function loadCss(url) {
 
 /* Main Functions */
 function setupMain() {
-    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/questionSpoof.js', 'questionSpoof');
-    loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/videoSpoof.js', 'videoSpoof');
-    loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/spoofUser.js', 'spoofUser');
-    loadScript('https://raw.githubusercontent.com/DarkMod3/KhanFucker/refs/heads/Main/Plugins/autoAnswer.js', 'autoAnswer');
+    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/plugins/questionSpoof.js', 'questionSpoof');
+    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/plugins/videoSpoof.js', 'videoSpoof');
+    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/plugins/spoofUser.js', 'spoofUser');
+    loadScript('https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/plugins/autoAnswer.js', 'autoAnswer');
 }
 
 /* Inject */
