@@ -6,7 +6,7 @@
 
 **Developed by: [! im Snow](https://guns.lol/imsnow)&[iUnknowBr](https://guns.lol/iunknownbr)**
 
-**Emglishified by: [gamerwaves](https://github.com/gamerwaves)**
+**Englishified by: [gamerwaves](https://github.com/gamerwaves)**
 
 # Resources
 ✅ _Automate responses and save time!_
