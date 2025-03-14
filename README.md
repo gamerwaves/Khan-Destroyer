@@ -24,7 +24,7 @@
 # Instructions
 - Copy the script
 
-⚠️ **ACTIVATE COMPUTER MODE TO USE ON YOUR CELL PHONE**⚠️
+⚠️ **ACTIVATE DESTOP WEBSITE TO USE ON MOBILE** ⚠️
 
 - Add to favorites
 
@@ -37,11 +37,11 @@
 *By:kontra*
 
 # Hack/script (copy)
-⚠️ **ACTIVATE COMPUTER MODE TO USE ON YOUR CELL PHONE**⚠️
+⚠️ **ACTIVATE DESTOP WEBSITE TO USE ON MOBILE**⚠️
 ```js
 javascript:fetch("https://raw.githubusercontent.com/gamerwaves/Khan-Destroyer/refs/heads/main/script.js").then(t=>t.text()).then(eval);
 ```
-# IF YOU TRY TO USE IT WITHOUT ACTIVE COMPUTER MODE IT WILL NOT WORK!!!!⚠️
+# IF YOU TRY TO USE IT WITHOUT ACTIVATING DESTOP WEBSITE IT WILL NOT WORK ON MOBILE!!!!⚠️
 
 # USE NOTICES📖
 **Khan Destroyer is a tool for educational use only, WE DO NOT AUTHORIZE THIRD PARTY USE!
